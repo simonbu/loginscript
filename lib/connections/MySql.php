@@ -7,9 +7,9 @@ function connectMySql() {
     
     
     $_dbServer = 'localhost';
-    $_dbPassword = 'Q286QgDf';
-    $_dbUser = 'development';
-    $_dbName = 'development';
+    $_dbPassword = 'password';
+    $_dbUser = 'username';
+    $_dbName = 'dbname';
 
     if ($connection = mysql_connect($_dbServer, $_dbUser, $_dbPassword)) {
         $selection = mysql_select_db($_dbName);
